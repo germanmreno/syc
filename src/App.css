@@ -1,0 +1,51 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+.app-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-navbar {
+  width: 100%;
+}
+
+.order-container {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-topic {
+  width: 750px;
+  border-radius: 15px;
+}
+
+.order-stepper-container {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+
+}
+
+.order-msg-container {
+  margin-top: 25px;
+}
+
+.order-msg-item  {
+  font-size: 13px;
+  max-width: 750px;
+  height: 75px;
+  margin-top: 75px;
+  border-radius: 35px;
+}
+
